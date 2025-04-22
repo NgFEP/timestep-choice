@@ -83,21 +83,6 @@ Each `.mdin` file is uniquely created per timestep, with key MD parameters for N
 
 ---
 
-### 🧠 Script Highlights
-
-- Uses associative arrays (`declare -A`) to define timestep-dependent simulation length and frequencies.
-- Generates `.mdin` files with appropriate AMBER parameters:
-  - No thermostat/barostat (NVE ensemble)
-  - Constant energy
-  - 9 Å cutoff
-  - iwrap = 1 to wrap coordinates
-- SLURM job scripts include:
-  - Resource requests (1 GPU, 32 GB RAM, 3 days wall time)
-  - Module and environment setup
-  - Execution via `pmemd.cuda` from AMBER 24
-
----
-
 ### 🧬 SLURM Job Script Sample (Auto-Generated)
 
 ```bash
@@ -134,10 +119,7 @@ pmemd.cuda -O \
   -x run/0.00000000_nve_0.001.nc \
   -inf run/0.00000000_nve_0.001.mdinfo \
   -AllowSmallBox
-
-
-
-
+```
 ---
 
 ### Ethane System
