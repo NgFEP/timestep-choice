@@ -273,7 +273,10 @@ This directory contains input files for **Thermodynamic Integration (TI)** simul
 - **Path:** [`aq`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
 - **Topology File:** `unisc.parm7`  
   *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
-[lambda=0]`DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/lambda0`
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/lambda0`)*
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/lambda025`)*
 
 , 0.25, 0.5, 0.75, 1.0 
 
