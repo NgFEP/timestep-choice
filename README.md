@@ -44,25 +44,18 @@ Download the topology [Link](https://github.com/NgFEP/timestep-choice/tree/main/
 
 ## Batch Script for NPT and NVE Simulations using AMBER
 
-This Bash script automates the setup and submission of molecular dynamics simulations under NPT and NVE ensembles across different time steps and lambda windows using AMBER on an HPC cluster.
+This Bash script `sample_hmr_on_shake_on_step_3_nve.sh` [Link](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/ethane/hmr_on_shake_on/sample_hmr_on_shake_on_step_3_nve.sh) automates the setup and submission of molecular dynamics simulations under NPT and NVE ensembles across different time steps and lambda windows using AMBER on an HPC cluster. 
 
 ### 📂 Directory Structure
 
 - `run/`: Output directory for simulation results
-- `inputs/`: Auto-generated input files for NPT and NVE simulations
+- `inputs/`: Auto-generated input files for NVE simulations
 
 ### 🔧 Script Configuration
 
 - **Environment:** `aq`
 - **Lambdas:** `0.00000000`, `0.25000000`, `0.50000000`, `0.75000000`, `1.00000000`
 - **Time Steps & Simulation Lengths:**
-  - **NPT (1 ns):**
-    - 0.0005 ps → 2,000,000 steps
-    - 0.001 ps → 1,000,000 steps
-    - 0.002 ps → 500,000 steps
-    - 0.0025 ps → 400,000 steps
-    - 0.00333333 ps → 300,000 steps
-    - 0.004 ps → 250,000 steps
   - **NVE (100 ns):**
     - 0.0005 ps → 200,000,000 steps
     - 0.001 ps → 100,000,000 steps
@@ -96,11 +89,6 @@ For each lambda and timestep, the script generates and submits a SLURM batch job
   - Runs NVE simulation (NPT lines are included but commented out)
 
 > **Note:** The NVE simulation starts from the `0.0005 ps` timestep NPT output file, regardless of the NVE timestep being tested.
-
-### 📝 Customization
-
-- You can uncomment the NPT execution block if you want to run NPT simulations.
-- Modify SLURM directives (e.g., `--mail-user`, `--nodelist`) as per your cluster setup.
 
 ### 📌 Example Output
 
