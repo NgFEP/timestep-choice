@@ -202,6 +202,7 @@ The script will automate post-processing and data extraction using the provided 
   - **mdin:**
     *(Located at `DATA/c-md/ethane/hmr_on_shake_on/inputs`)*
 
+## Directory ti-md ## 
 
 
 
