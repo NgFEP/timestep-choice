@@ -1,0 +1,21 @@
+morph rpcamp into camp charges and S -> O
+ &cntrl
+   ntr=0,
+   nstlim =200000000, 
+   ntx=5, irest=1, ntpr=2000, ig=-1,
+   ntp=0, ntb=1, ntt=0,  
+!  taup=1.0, tempi=300.0,
+!  barostat = 2, mcbarint = 100,
+   dt=0.0005, nrespa=1,
+!  gamma_ln = 2, temp0 = 300., tautp=2.0,
+   ntc=2, ntf=1, tol=0.000001,
+   ntwr = 2000, ntwx=0,
+   icfe=1,  ifsc=1, clambda=0.75000000,
+   timask1             = ':1',
+   timask2             = ':2',
+   scmask1             = ':1@O1',              ! softcore region 1
+   scmask2             = ':2@S1',              ! softcore region 2
+   cut                 = 8.5,
+   tishake             = 0,
+   iwrap=1, nscm=0,
+ /
