@@ -248,7 +248,7 @@ The script will automate post-processing and data extraction using the provided 
     *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc/inputs`)*
 
 - **hmr_on_shake_on_all_sc**  
-  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc)
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc)
 
   - **Topology:** `out_hmr.parm7`  
     *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc`)*
