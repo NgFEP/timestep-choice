@@ -42,7 +42,7 @@ This repository contains the files of simulations for the timestep choice manusc
 
 Download the topology [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/ti_hmr_L00.parm7), initial coordinate [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inicord/0.00000000_npt_0.0005.rst7), and all input files [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inputs) from the mentioned location.
 
-## Batch Script for NPT and NVE Simulations using AMBER
+## Batch Script for NVE Simulations using AMBER
 
 This Bash script `sample_hmr_on_shake_on_step_3_nve.sh` [Link](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/ethane/hmr_on_shake_on/sample_hmr_on_shake_on_step_3_nve.sh) automates the setup and submission of molecular dynamics simulations under NPT and NVE ensembles across different time steps and lambda windows using AMBER on an HPC cluster. 
 
