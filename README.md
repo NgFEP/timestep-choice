@@ -288,9 +288,6 @@ lambda=0.75
 
 lambda=1.00
 *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/lambda1`)*
-  
-- **Initial Coordinates:** `*_preTI.rst7`  
-  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
 
 ---
 
@@ -298,17 +295,23 @@ lambda=1.00
 - **Path:** [`com`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/com)
 - **Topology File:** `unisc.parm7`  
   *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
-- **Initial Coordinates:** `*_preTI.rst7`  
-  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
-- **Input Files (`mdin`):**  
-  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
+
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com/lambda0`)*
+
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com/lambda025`)*
+
+lambda=0.5
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/lambda05`)*
+
+lambda=0.75
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com/lambda075`)*
+
+lambda=1.00
+*(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com/lambda1`)*
 
 ---
-
- ### ethane to ethanol transformation
-
- 
-
 
 
 # Output files: #
