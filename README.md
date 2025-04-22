@@ -97,7 +97,8 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_off_shake_on`)*
   - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
     *(Located at `DATA/c-md/camp/hmr_off_shake_on/inicord`)*
-
+  - **mdin:**
+    *(Located at `DATA/c-md/camp/hmr_off_shake_off/inputs`)*
 - **hmr_off_shake_on**  
   [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
 
