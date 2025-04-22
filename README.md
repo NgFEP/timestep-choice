@@ -285,7 +285,51 @@ The input files for all TI simulations: 10ns each and repeated 8 times for t-tes
   - **mdin:**
     *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
     
- 
+ ## 📁 Subdirectory: `ti_t_test`
+
+This directory contains input files for **Thermodynamic Integration (TI)** simulations aimed at evaluating statistical consistency using a **t-test**. Each simulation runs for **10 ns** and is repeated **8 times** for robust statistical analysis.
+
+---
+
+### 🔄 EJM42 → EJM55 Transformation
+
+**Base Path:** [`DATA/ti_t_test/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
+
+#### 📦 System: `git_hub_ejm_42~ejm_55`
+
+- **Repository Link:** [`git_hub_ejm_42~ejm_55`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55)
+
+---
+
+#### 🌊 Environment: `aq`
+- **Path:** [`aq`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
+- **Topology File:** `unisc.parm7`  
+  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
+- **Initial Coordinates:** `*_preTI.rst7`  
+  *(Located in the same directory)*
+- **Input Files (`mdin`):**  
+  [`inputs`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs)
+
+---
+
+#### ⚗️ Environment: `com`
+- **Path:** [`com`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/com)
+- **Topology File:** `unisc.parm7`  
+  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
+- **Initial Coordinates:** `*_preTI.rst7`  
+  *(Located in the same directory)*
+- **Input Files (`mdin`):**  
+  *(Same as `aq`, located at `aq/inputs`)*
+
+---
+
+Each setup includes:
+- A consistent topology (`unisc.parm7`)
+- Prepared initial coordinates for TI (`*_preTI.rst7`)
+- Pre-written input files for all lambda windows (`mdin` files in `inputs/`)
+
+These datasets are designed for reproducible testing and comparison across multiple runs.
+
  
 
 
