@@ -1,12 +1,9 @@
 #!/bin/bash
 source /home/sp2546/softwares/amber24/amber.sh
-
-#lams=(0.00000000 0.25000000 0.50000000 0.75000000 1.00000000)
 lams=(0.00000000)
-#dt=(0.001 0.002)
+
 dt=(0.0005 0.001 0.002 0.0025 0.00333333 0.004)
-#dt=(0.0005 0.001)
-#dt=(0.0005)
+
 
 # Array of NPT 1 ns time steps and corresponding total steps
 declare -A npt_steps
@@ -17,7 +14,6 @@ declare -A freq_steps
 freq_steps=( ["0.0005"]=2000 ["0.001"]=1000 ["0.002"]=500 ["0.0025"]=400 ["0.00333333"]=300 ["0.004"]=250 )
 
 gpu_ids=(1)  # List of available GPUs
-#gpu_ids=(1)
 gpu_count=${#gpu_ids[@]}
 job_index=0  # Initialize job index for GPU assignment
 
