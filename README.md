@@ -263,9 +263,9 @@ The input files for all TI simulations: 10ns each and repeated 8 times for t-tes
 
 ### ejm 42 to ejm 55 transformation
 **Path:** [`DATA/ti_t_test](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
--**git_hub_ejm_42~ejm_55**
+- **git_hub_ejm_42~ejm_55**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55)
- -**aq**
+ - **aq**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
 
  - **Topology:** `unisc.parm7`  
@@ -275,7 +275,7 @@ The input files for all TI simulations: 10ns each and repeated 8 times for t-tes
   - **mdin:**
     *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
     
--**com**
+- **com**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/com)
 - **Topology:** `unisc.parm7`  
     *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
