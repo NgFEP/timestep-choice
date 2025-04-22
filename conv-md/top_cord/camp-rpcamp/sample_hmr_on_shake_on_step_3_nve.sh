@@ -1,5 +1,4 @@
 #!/bin/bash
-#source /home/sp2546/softwares/amber22/amber.sh
 env="aq"
 lams=("0.00000000")
 
