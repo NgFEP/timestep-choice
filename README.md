@@ -201,7 +201,7 @@ The script will automate post-processing and data extraction using the provided 
   - **mdin:**
     *(Located at `DATA/c-md/ethane/hmr_on_shake_on/inputs`)*
 
-## Directory ti-md ## 
+## subdirectory ti-md ## 
 ### camp to rp-camp transformation
 **Path:** [`DATA/ti-md/camp_rpcamp`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/camp_rpcamp)
 
