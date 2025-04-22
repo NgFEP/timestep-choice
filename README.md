@@ -238,7 +238,7 @@ The script will automate post-processing and data extraction using the provided 
 ### ethane to ethanol transformation
 **Path:** [`DATA/ti-md/ethane_ethanol/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ethane_ethanol/)
 - **hmr_on_shake_on_3_atom_sc**  
-  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc)
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc)
 
   - **Topology:** `out_hmr.parm7`  
     *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc`)*
