@@ -256,38 +256,11 @@ The script will automate post-processing and data extraction using the provided 
     *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc/inicord`)*
   - **mdin:**
     *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc/inputs`)*
-
-## subdirectory ti_t_test ## 
-The input files for all TI simulations: 10ns each and repeated 8 times for t-test purposes.
-
-### ejm 42 to ejm 55 transformation
-**Path:** [`DATA/ti_t_test/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
-
-- **git_hub_ejm_42~ejm_55**
- [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55)
-
-     - **aq**
- [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
-
-           - **Topology:** `unisc.parm7`  
-            *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
-           - **Initial coordinate:** `*_preTI.rst7`
-            *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
-           - **mdin:**
-            *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
-    
-- **com**
- [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/com)
-- **Topology:** `unisc.parm7`  
-    *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
-  - **Initial coordinate:** `*_preTI.rst7`
-    *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
-  - **mdin:**
-    *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
     
  ## Subdirectory: `ti_t_test`
 
 This directory contains input files for **Thermodynamic Integration (TI)** simulations to evaluate statistical consistency using a **t-test**. Each simulation runs for **10 ns** and is repeated **8 times** for robust statistical analysis.
+
 **Path:** [`DATA/ti_t_test/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
 
 ### ejm 42 to ejm 55 transformation
@@ -300,6 +273,13 @@ This directory contains input files for **Thermodynamic Integration (TI)** simul
 - **Path:** [`aq`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
 - **Topology File:** `unisc.parm7`  
   *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
+[lambda=0]`DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/lambda0`
+
+, 0.25, 0.5, 0.75, 1.0 
+
+
+
+  
 - **Initial Coordinates:** `*_preTI.rst7`  
   *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
 - **Input Files (`mdin`):**  
@@ -318,12 +298,7 @@ This directory contains input files for **Thermodynamic Integration (TI)** simul
 
 ---
 
-Each setup includes:
-- A consistent topology (`unisc.parm7`)
-- Prepared initial coordinates for TI (`*_preTI.rst7`)
-- Pre-written input files for all lambda windows (`mdin` files in `inputs/`)
-
-These datasets are designed for reproducible testing and comparison across multiple runs.
+ ### ethane to ethanol transformation
 
  
 
