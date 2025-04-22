@@ -3,33 +3,46 @@ This repository contains the files of simulations for the timestep choice manusc
 # Input files: #
 ## Directory: c-md ##
 
-camp system: DATA/c-md/camp (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
+### Camp System
+**Path:** [`DATA/c-md/camp`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
 
-hmr_off_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
+- **hmr_off_shake_off**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
 
-Topology: `ti_L00.parm7` (DATA/c-md/camp/hmr_off_shake_on)
+  - **Topology:** `ti_L00.parm7`  
+    *(Located at `DATA/c-md/camp/hmr_off_shake_on`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/c-md/camp/hmr_off_shake_on/inicord`)*
 
-Initial coordinate: `0.00000000_npt_0.0005.rst7` (DATA/c-md/camp/hmr_off_shake_on/inicord)
+- **hmr_off_shake_on**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
 
-hmr_off_shake_on (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
+  - **Topology:** `ti_L00.parm7`  
+    *(Located at `DATA/c-md/camp/hmr_off_shake_on`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/c-md/camp/hmr_off_shake_on/inicord`)*
 
-Topology:`ti_L00.parm7` (DATA/c-md/camp/hmr_off_shake_on)
+- **hmr_on_shake_off**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_off)
 
-Initial coordinate:`0.00000000_npt_0.0005.rst7` (DATA/c-md/camp/hmr_off_shake_on/inicord)
+  - **Topology:** `ti_hmr_L00.parm7`  
+    *(Located at `DATA/c-md/camp/hmr_on_shake_off`)*
+  - **Initial coordinate:** `out_L00.rst7`  
+    *(Located at `DATA/c-md/camp/hmr_on_shake_off/inicord`)*
 
-hmr_on_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_off)
+- **hmr_on_shake_on**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on)
 
-Topology:`ti_hmr_L00.parm7`
+  - **Topology:** `ti_hmr_L00.parm7`  
+    *(Located at `DATA/c-md/camp/hmr_on_shake_on`)*
+  - **Initial coordinate:** `out_L00.rst7`  
+    *(Located at `DATA/c-md/camp/hmr_on_shake_on/inicord`)*
 
-Initial coordinate:`out_L00.rst7` (DATA/c-md/camp/hmr_on_shake_off/inicord)
+---
 
-hmr_on_shake_on (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on)
+### Ethane System
+**Path:** [`DATA/c-md/ethane`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/ethane)
 
-Topology:`ti_hmr_L00.parm7`
-
-Initial coordinate:`out_L00.rst7` (DATA/c-md/camp/hmr_on_shake_on/inicord)
-
-ethane system: DATA/c-md/ethane (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/ethane)
 ## Directory: analysis_code ##
 
 ## Directory: conv_md ##
