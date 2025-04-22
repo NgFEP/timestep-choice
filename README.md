@@ -50,6 +50,7 @@ This Bash script `sample_hmr_on_shake_on_step_3_nve.sh` [Link](https://github.co
 
 - `run/`: Output directory for simulation results
 - `inputs/`: Auto-generated input files for NVE simulations
+- `inicord/`: initial coordinate
 
 ### 🔧 Script Configuration
 
