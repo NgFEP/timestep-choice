@@ -46,54 +46,95 @@ Download the topology [Link](https://github.com/NgFEP/timestep-choice/tree/main/
 
 This Bash script `sample_hmr_on_shake_on_step_3_nve.sh` [Link](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/ethane/hmr_on_shake_on/sample_hmr_on_shake_on_step_3_nve.sh) automates the setup and submission of molecular dynamics simulations under NPT and NVE ensembles across different time steps and lambda windows using AMBER on an HPC cluster. 
 
-### 📂 Directory Structure
+## 🔁 Automated NVE Simulation Submission Script (Single Lambda)
 
-- `run/`: Output directory for simulation results
-- `inputs/`: Auto-generated input files for NVE simulations
-- `inicord/`: initial coordinate
+This script is designed to automate the setup and submission of **100 ns NVE simulations** for a single lambda value using **AMBER** with CUDA acceleration on a SLURM-based HPC cluster.
 
-### 🔧 Script Configuration
+---
 
-- **Environment:** `aq`
-- **Lambdas:** `0.00000000`, `0.25000000`, `0.50000000`, `0.75000000`, `1.00000000`
-- **Time Steps & Simulation Lengths:**
-  - **NVE (100 ns):**
-    - 0.0005 ps → 200,000,000 steps
-    - 0.001 ps → 100,000,000 steps
-    - 0.002 ps → 50,000,000 steps
-    - 0.0025 ps → 40,000,000 steps
-    - 0.00333333 ps → 30,000,000 steps
-    - 0.004 ps → 25,000,000 steps
+### 🧪 System Setup
 
-### 🛠 Input Files
+- **Lambda value:** `0.00000000`
+- **Topology file:** `out_hmr_L00.parm7`
+- **Initial coordinate directory:** `inicord`
+- **Starting restart file for all NVE simulations:** `0.00000000_npt_0.0005.rst7`
 
-For each combination of lambda and timestep, the script generates:
+---
 
-- `inputs/{lambda}_npt_{dt}.mdin`: NPT input file
-- `inputs/{lambda}_nve_{dt}.mdin`: NVE input file
+### 🧩 Time Step Configurations
 
-Each input includes relevant control parameters such as pressure coupling (for NPT), temperature regulation, and softcore region definition (`timask` and `scmask`).
+| Time Step (ps) | NVE Total Steps | Output Frequency |
+|----------------|------------------|------------------|
+| 0.0005         | 200,000,000      | 2000             |
+| 0.001          | 100,000,000      | 1000             |
+| 0.002          | 50,000,000       | 500              |
+| 0.0025         | 40,000,000       | 400              |
+| 0.00333333     | 30,000,000       | 300              |
+| 0.004          | 25,000,000       | 250              |
 
-### 🚀 SLURM Job Script
+---
 
-For each lambda and timestep, the script generates and submits a SLURM batch job:
+### 📄 Files and Structure
 
-- **Job Script:** `job_{lambda}_{dt}.sh`
-- **Job Configuration:**
-  - GPU partition, 1 GPU
-  - 1 node, 1 CPU, 32GB memory
-  - Runtime: up to 3 days
-  - Output/Error logs: `job_{lambda}_{dt}.out` and `.err`
-- **Execution:**
-  - Loads necessary modules (GCC, OpenMPI, CUDA)
-  - Sources AMBER environment
-  - Runs NVE simulation (NPT lines are included but commented out)
+- **Input folder:** `inputs/` — auto-generated NVE `.mdin` files
+- **Run folder:** `run/` — simulation outputs
+- **Job scripts:** `job_{lambda}_{dt}.sh` — one per timestep
 
-> **Note:** The NVE simulation starts from the `0.0005 ps` timestep NPT output file, regardless of the NVE timestep being tested.
+Each `.mdin` file is uniquely created per timestep, with key MD parameters for NVE runs.
 
-### 📌 Example Output
+---
 
-After running the script, you will find:
+### 🧠 Script Highlights
+
+- Uses associative arrays (`declare -A`) to define timestep-dependent simulation length and frequencies.
+- Generates `.mdin` files with appropriate AMBER parameters:
+  - No thermostat/barostat (NVE ensemble)
+  - Constant energy
+  - 9 Å cutoff
+  - iwrap = 1 to wrap coordinates
+- SLURM job scripts include:
+  - Resource requests (1 GPU, 32 GB RAM, 3 days wall time)
+  - Module and environment setup
+  - Execution via `pmemd.cuda` from AMBER 24
+
+---
+
+### 🧬 SLURM Job Script Sample (Auto-Generated)
+
+```bash
+#!/bin/bash
+#SBATCH --job-name=aq_0.00000000_0.001
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:1
+#SBATCH --mem=32G
+#SBATCH --time=3-00:00:00
+#SBATCH --error=job_0.00000000_0.001.err
+#SBATCH --output=job_0.00000000_0.001.out
+#SBATCH --mail-user=saikat.pal@rutgers.edu
+#SBATCH --nodelist=gpu[019-020,022-026]
+
+# Load necessary modules
+module purge
+module use /projects/community/modulefiles
+module load gcc/10.2.0/openmpi/4.0.5-bz186
+module load cmake/3.19.5-bz186
+module load cuda/11.7.1
+
+# Load AMBER
+source /home/sp2546/softwares/AMBER/amber24/amber.sh
+
+# Run NVE simulation
+pmemd.cuda -O \
+  -p out_hmr_L00.parm7 \
+  -c inicord/0.00000000_npt_0.0005.rst7 \
+  -i inputs/0.00000000_nve_0.001.mdin \
+  -o run/0.00000000_nve_0.001.mdout \
+  -r run/0.00000000_nve_0.001.rst7 \
+  -x run/0.00000000_nve_0.001.nc \
+  -inf run/0.00000000_nve_0.001.mdinfo \
+  -AllowSmallBox
 
 
 
