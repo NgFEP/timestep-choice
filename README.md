@@ -1,8 +1,7 @@
 This repository contains the files of simulations for the timestep choice manuscript (current version available at https://doi.org/10.26434/chemrxiv-2025-jwkz1)
 
-
 # Input files: #
-## Directory: conv_md ##
+## Directory: c-md ##
 camp system: DATA/c-md/camp (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
 
 hmr_off_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
