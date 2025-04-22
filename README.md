@@ -11,4 +11,4 @@ Directory: ti
 Directory ti_t_test: the input files for all TI simulations: 10ns each and repeated 8 times for t-test purposes.
 
 Output files:
-  Due to the file sizes, all output files are available throuhg anonymous ftp to 165.230.21.2.
+  Due to the file sizes, all output files are available through anonymous ftp to 165.230.21.2.
