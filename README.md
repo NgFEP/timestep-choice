@@ -99,6 +99,7 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_off_shake_on/inicord`)*
   - **mdin:**
     *(Located at `DATA/c-md/camp/hmr_off_shake_off/inputs`)*
+    
 - **hmr_off_shake_on**  
   [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
 
@@ -106,7 +107,9 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_off_shake_on`)*
   - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
     *(Located at `DATA/c-md/camp/hmr_off_shake_on/inicord`)*
-
+  - **mdin:**
+    *(Located at `DATA/c-md/camp/hmr_off_shake_on/inputs`)*
+    
 - **hmr_on_shake_off**  
   [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_off)
 
@@ -114,6 +117,8 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_on_shake_off`)*
   - **Initial coordinate:** `out_L00.rst7`  
     *(Located at `DATA/c-md/camp/hmr_on_shake_off/inicord`)*
+    - **mdin:**
+    *(Located at `DATA/c-md/camp/hmr_on_shake_off/inputs`)*
 
 - **hmr_on_shake_on**  
   [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on)
@@ -122,6 +127,8 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_on_shake_on`)*
   - **Initial coordinate:** `out_L00.rst7`  
     *(Located at `DATA/c-md/camp/hmr_on_shake_on/inicord`)*
+    - **mdin:**
+    *(Located at `DATA/c-md/camp/hmr_on_shake_on/inputs`)*
 
 ### Ethane System
 **Path:** [`DATA/c-md/ethane`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/ethane)
