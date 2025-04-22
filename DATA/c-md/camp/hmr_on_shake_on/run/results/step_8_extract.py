@@ -10,7 +10,7 @@ import plotly.express as px  # Import plotly express for color palettes
 import re  # Import the regular expressions module
 
 # Array of lambda values (adjust as necessary)
-lambda_values = ['0.00000000', '0.25000000', '0.50000000', '0.75000000', '1.00000000']
+lambda_values = ['0.00000000']
 
 # List of dt_values (time step values), adjust as necessary
 dt_values = ['0.0005', '0.001', '0.002', '0.0025', '0.00333333', '0.004']
