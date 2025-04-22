@@ -8,9 +8,9 @@ camp system: DATA/c-md/camp (https://github.com/NgFEP/timestep-choice/tree/main/
 
 hmr_off_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
 
-Topology: `ti_L00.parm7` (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
+Topology: `ti_L00.parm7` (DATA/c-md/camp/hmr_off_shake_on)
 
-Initial coordinate: `0.00000000_npt_0.0005.rst7` (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on/inicord)
+Initial coordinate: `0.00000000_npt_0.0005.rst7` (DATA/c-md/camp/hmr_off_shake_on/inicord)
 
 hmr_off_shake_on (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
 
