@@ -49,7 +49,7 @@ Each `.mdin` file is uniquely created per timestep, with key MD parameters for N
 
 ---
 
-### SLURM Job Script Sample (Auto-Generated)
+### SLURM Job Script Sample
 
 ```bash
 #!/bin/bash
