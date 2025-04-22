@@ -235,6 +235,8 @@ The script will automate post-processing and data extraction using the provided 
   - **mdin:**
     *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_one_sc/inputs`)*
 
+###ethane to ethanol transformation
+**Path:** [`DATA/ti-md/ethane_ethanol/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ethane_ethanol/)
 
 
 ## Directory ti_t_test ## 
