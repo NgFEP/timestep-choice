@@ -4,7 +4,7 @@ This repository contains the files of simulations for the timestep choice manusc
 
 # Input files: #
 ## Directory: conv_md ##
-camp system: DATA/c-md/ (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
+camp system: DATA/c-md/camp (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
 
 hmr_off_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
 
@@ -30,7 +30,7 @@ Topology:`ti_hmr_L00.parm7`
 
 Initial coordinate:`out_L00.rst7` (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inicord)
 
-ethane system: DATA/c-md/ (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/ethane)
+ethane system: DATA/c-md/ethane (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/ethane)
 ## Directory: analysis_code ##
 
 ## Directory: conv_md ##
