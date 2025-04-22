@@ -269,12 +269,12 @@ The input files for all TI simulations: 10ns each and repeated 8 times for t-tes
      - **aq**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
 
- - **Topology:** `unisc.parm7`  
-    *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
-  - **Initial coordinate:** `*_preTI.rst7`
-    *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
-  - **mdin:**
-    *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
+           - **Topology:** `unisc.parm7`  
+            *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
+           - **Initial coordinate:** `*_preTI.rst7`
+            *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
+           - **mdin:**
+            *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
     
 - **com**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/com)
