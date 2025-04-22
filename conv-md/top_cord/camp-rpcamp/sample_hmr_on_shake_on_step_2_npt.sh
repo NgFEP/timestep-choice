@@ -90,17 +90,7 @@ export CUDA_VISIBLE_DEVICES=${cuda}
     -r \${run_folder}/\${npt}_\${dt}.rst7 \\
     -x \${run_folder}/\${npt}_\${dt}.nc \\
     -inf \${run_folder}/\${npt}_\${dt}.mdinfo
-
-## Run the NVE simulation starting from the NPT output
-#\${amber} -O \\
-#    -p \${topology} \\
-#    -c \${run_folder}/\${npt}_\${dt}.rst7 \\
-#    -i \${input_paths}/\${nve}_\${dt}.mdin \\
-#    -o \${run_folder}/\${nve}_\${dt}.mdout \\
-#    -r \${run_folder}/\${nve}_\${dt}.rst7 \\
-#    -x \${run_folder}/\${nve}_\${dt}.nc  \\
-#    -inf \${run_folder}/\${nve}_\${dt}.mdinfo \\
-#    -AllowSmallBox
+    
 #echo "Completed simulations for lambda=\${lambda}, dt=\${dt}"
 EOF
 
