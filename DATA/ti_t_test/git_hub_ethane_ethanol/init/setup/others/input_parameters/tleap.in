@@ -1,0 +1,20 @@
+source leaprc.gaff2
+source leaprc.water.tip4pew
+loadamberparams frcmod.tip4pew
+loadAmberParams frcmod.ionsjc_tip4pew
+loadoff tip4pewbox.off
+loadamberparams ethane_0.frcmod
+loadoff ethane_0.lib
+loadamberparams ethanol_0.frcmod
+loadoff ethanol_0.lib
+ethane = loadpdb ethane_0.pdb
+ethanol= loadpdb ethanol_0.pdb
+m = combine {ethane ethanol}
+savepdb m out.pdb
+solvateBox m TIP4PEWBOX 20
+savepdb m out.pdb
+saveamberparm m out.parm7 out.rst7
+quit
+#
+##savepdb ethane ethane_leap.pdb
+##savepdb ethanol ethanol_leap.pdb

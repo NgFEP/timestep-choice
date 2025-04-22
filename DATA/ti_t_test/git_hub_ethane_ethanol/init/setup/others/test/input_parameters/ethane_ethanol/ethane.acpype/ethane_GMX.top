@@ -1,0 +1,20 @@
+; ethane_GMX.top created by acpype (v: 2023.10.27) on Fri Nov  1 13:50:25 2024
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include ethane_GMX.itp topology
+#include "ethane_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_ethane.itp"
+#endif
+
+[ system ]
+ ethane
+
+[ molecules ]
+; Compound        nmols
+ ethane           1     

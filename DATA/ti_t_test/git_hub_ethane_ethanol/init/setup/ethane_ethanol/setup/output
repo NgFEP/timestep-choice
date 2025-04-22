@@ -1,0 +1,103 @@
+-I: Adding /home/saikat/softwares/amber22/dat/leap/prep to search path.
+-I: Adding /home/saikat/softwares/amber22/dat/leap/lib to search path.
+-I: Adding /home/saikat/softwares/amber22/dat/leap/parm to search path.
+-I: Adding /home/saikat/softwares/amber22/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tleap.in.
+
+Welcome to LEaP!
+Sourcing: ./tleap.in
+----- Source: /home/saikat/softwares/amber22/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /home/saikat/softwares/amber22/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /home/saikat/softwares/amber22/dat/leap/lib/amino12.lib
+Loading library: /home/saikat/softwares/amber22/dat/leap/lib/aminoct12.lib
+Loading library: /home/saikat/softwares/amber22/dat/leap/lib/aminont12.lib
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+----- Source: /home/saikat/softwares/amber22/dat/leap/cmd/leaprc.gaff2
+----- Source of /home/saikat/softwares/amber22/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.20, March 2021)
+----- Source: /home/saikat/softwares/amber22/dat/leap/cmd/leaprc.water.tip4pew
+----- Source of /home/saikat/softwares/amber22/dat/leap/cmd/leaprc.water.tip4pew done
+Loading library: /home/saikat/softwares/amber22/dat/leap/lib/atomic_ions.lib
+Loading library: /home/saikat/softwares/amber22/dat/leap/lib/solvents.lib
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP4PEW
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.ionsjc_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP4P/EW water from Joung & Cheatham JPCB (2008)
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.ions234lm_126_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP4P/EW water model (12-6 normal usage set)
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP4PEW
+Loading parameters: /home/saikat/softwares/amber22/dat/leap/parm/frcmod.ionsjc_tip4pew
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP4P/EW water from Joung & Cheatham JPCB (2008)
+Loading library: /home/saikat/softwares/amber22/dat/leap/lib/tip4pewbox.off
+Loading parameters: ./ethane_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./ethane_0.lib
+Loading parameters: ./ethanol_0.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading library: ./ethanol_0.lib
+Loading PDB file: ./merged1_ethane~ethanol.pdb using sequence 
+  matching pdb residues -> sequence template
+	res	pdb	template
+	1*	L00	ethane.pdb
+	2*	L01	ethanol.pdb
+  * = possible mismatch; total 2
+      (i.e. pdb name not a substring of template)
+
+  total atoms in file: 16
+  Leap added 1 missing atom according to residue templates:
+       1 H / lone pairs
+Box dimensions:  5.610600 5.852600 6.335300
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 0 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	L00	1
+	L01	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.

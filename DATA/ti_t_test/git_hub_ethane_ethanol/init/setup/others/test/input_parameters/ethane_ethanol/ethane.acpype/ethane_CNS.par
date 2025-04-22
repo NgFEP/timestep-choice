@@ -1,0 +1,22 @@
+Remarks ethane_CNS.par created by acpype (v: 2023.10.27) on Fri Nov  1 13:50:25 2024
+
+set echo=false end
+
+{ Bonds: atomType1 atomType2 kb r0 }
+BOND   c3_   hc_    345.2   1.0962
+BOND   c3_   c3_    228.9   1.5354
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe   c3_   c3_   hc_     43.3   109.68
+ANGLe   hc_   c3_   hc_     35.8   107.73
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+DIHEdral   hc_   c3_   c3_   hc_           0.120    3     0.00
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded   c3_    0.107800    3.397710    0.053900    3.397710
+NONBonded   hc_    0.020800    2.600177    0.010400    2.600177
+
+set echo=true end
