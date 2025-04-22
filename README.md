@@ -111,7 +111,7 @@ source /home/sp2546/softwares/AMBER/amber24/amber.sh
 
 # Run NVE simulation
 pmemd.cuda -O \
-  -p out_hmr_L00.parm7 \
+  -p ti_hmr_L00.parm7 \
   -c inicord/0.00000000_npt_0.0005.rst7 \
   -i inputs/0.00000000_nve_0.001.mdin \
   -o run/0.00000000_nve_0.001.mdout \
