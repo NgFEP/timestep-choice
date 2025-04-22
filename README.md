@@ -4,7 +4,9 @@ This repository contains the files of simulations for the timestep choice manusc
 
 # Input files: #
 ## Directory: conv_md ##
+camp system: DATA/c-md/ (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
 
+ethane system
 ## Directory: analysis_code ##
 
 ## Directory: conv_md ##
