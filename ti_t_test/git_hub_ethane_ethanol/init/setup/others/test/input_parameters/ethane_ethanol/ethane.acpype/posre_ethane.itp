@@ -1,0 +1,6 @@
+; posre_ethane.itp created by acpype (v: 2023.10.27) on Fri Nov  1 13:50:25 2024
+
+[ position_restraints ]
+; atom  type      fx      fy      fz
+     1     1  1000  1000  1000
+     2     1  1000  1000  1000

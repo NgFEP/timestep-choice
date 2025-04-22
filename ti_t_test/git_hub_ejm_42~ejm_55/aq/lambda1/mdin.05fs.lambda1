@@ -1,0 +1,24 @@
+morph rpcamp into camp charges and S -> O
+ &cntrl
+   ntr=0,
+   nstlim =20000000, nscm=1000,
+   dt=0.0005, nrespa=1,
+   ntx=1, irest=0, ntpr=200, ig=-1,
+   ntp=1, ntb=2, ntt=3,
+  taup=1.0, tempi=300.0,
+   tempi=300.0,
+  barostat = 2, mcbarint = 100,
+  gamma_ln = 2, temp0 = 300., tautp=2.0,
+   ntc=2, ntf=1, tol=0.000001,
+   ntwr = 1000 , ntwx=0,
+   iwrap=1,
+   icfe=1,  ifsc=1, clambda=1.00000000,
+tishake=0,
+timask1         = '@1-35'
+timask2         = '@36-68'
+scmask1         = '@20,30-35'
+scmask2         = '@64-68'
+   cut=9.0,
+ /
+
+

@@ -1,0 +1,65 @@
+&cntrl
+imin            = 0                 ! = 0, not running minimization; = 1, running minimization
+nstlim          = 20       ! simulation steps between each exchange interval
+numexchg        = 250000     ! total number of exchange attempts
+dt              = 0.001             ! timestep in unit of ps, 0.001ps = 1fs, safest option
+irest           = 0                 ! = 0, not restart a simulation; = 1, restart a simulation
+ntx             = 1                 ! = 1, not read velocity from a restart file; = 5, read velocity from a restart file
+ntxo            = 1                 ! final restart file format. = 1, ASCII; = 2, netCDF
+ntc             = 2                 ! SHAKE or not. = 1, not perform; = 2, on -H; = 3, on all bonds
+ntf             = 1                 ! force evaluation. = 1, evaluate all; = 2, -H omitted; = 3, all omitted
+ntwx            = 0
+ntwr            = 20       ! restart output frequency
+ntpr            = 20       ! energy info output frequency
+cut             = 10         ! non-bonded interaction cutoff in unit of Ang
+iwrap           = 1                 ! = 1, wrap coordinates to a prime box
+
+ntb             = 2                 ! = 2, periodic boundary condition with constant P
+temp0           = 298.              ! reference temperature
+ntt             = 3                 ! = 3, Langevin Dynamics Temperature scaling, constant T, use with gamma_ln
+gamma_ln        = 2.                ! collision frequency in unit of ps-1
+tautp           = 1                 ! time constant for heat bath in unit of ps
+ntp             = 1                 ! = 1, constant P MD with isotropic position scaling
+barostat        = 2                 ! = 2, Monte Carlo barostat
+pres0           = 1.01325           ! reference pressure in unit of bar
+taup            = 5.0               ! pressure relaxation time in unit of ps
+
+ifsc            = 1                 ! = 1, turn on softcore potential
+icfe            = 1                 ! = 1, turn on free energy calculation
+
+ifmbar          = 1                 ! additional output in the energy info
+bar_intervall   = 20       ! MBAR evaluation frequency, in unit of step. CAUTION: has to less equal to nstlim!!!
+mbar_states     = 5      ! number of lambda windows
+mbar_lambda(1)     = 0.00000000
+mbar_lambda(2)     = 0.25000000
+mbar_lambda(3)     = 0.50000000
+mbar_lambda(4)     = 0.75000000
+mbar_lambda(5)     = 1.00000000
+
+
+clambda         = 0.75000000           ! current lambda window
+timask1         = '@1-8'        ! TI region 1
+timask2         = '@9-17'        ! TI region 2
+crgmask         = ""
+scmask1         = ""        ! softcore region 1
+scmask2         = '@17'        ! softcore region 2
+scalpha         = 0.5        ! = 0.5 when gti_scale_beta = 1
+scbeta          = 1.0         ! = 1.0 when gti_scale_beta = 1
+
+gti_cut         = 1         ! internal softcore non-bonded terms will not be cut, 'cut' has no effect
+gti_output      = 1                 ! = 1, output detailed TI results
+gti_add_sc      = 5          ! = 25, energy terms to be scaled by lambda
+gti_scale_beta  = 1        ! = 1, use the softcore potential form 25.13 in Amber Manual 2023
+gti_cut_sc_on   = 8        ! distance to smooth softcore potential begin at, in unit of Ang
+gti_cut_sc_off  = 10       ! distance to smooth softcore potential stop at, in unit of Ang
+gti_lam_sch     = 1      ! = 1, lambda replaced by smoothstep lambda
+gti_ele_sc      = 1       ! = 1, softcore smoothstep electrostatic potential
+gti_vdw_sc      = 1       ! = 1, softcore smoothstep vdW potential
+gti_cut_sc      = 2       ! = 2, smooth both electrostatic and vdW
+gti_ele_exp     = 2      ! = 2, best practice
+gti_vdw_exp     = 2      ! = 2, best practice
+
+gremd_acyc      = 1                 ! = 1, not exchange lambda = 0 with lambda = 1 directly
+/
+ &ewald
+ /

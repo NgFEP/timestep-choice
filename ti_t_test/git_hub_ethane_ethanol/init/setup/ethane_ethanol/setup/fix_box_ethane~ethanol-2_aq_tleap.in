@@ -1,0 +1,16 @@
+source leaprc.protein.ff14SB
+loadamberparams frcmod.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip4pew
+loadamberparams frcmod.tip4pew
+loadAmberParams frcmod.ionsjc_tip4pew
+loadoff tip4pewbox.off
+loadamberparams ethane_0.frcmod
+loadoff ethane_0.lib
+loadamberparams ethanol_0.frcmod
+loadoff ethanol_0.lib
+x = loadPdb ethane~ethanol-2_aq.pdb
+set x box {  }
+saveamberparm x fix_box_ethane~ethanol-2_aq.parm7 fix_box_ethane~ethanol-2_aq.rst7
+
+quit
