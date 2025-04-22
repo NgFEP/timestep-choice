@@ -258,8 +258,11 @@ The script will automate post-processing and data extraction using the provided 
     *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc/inputs`)*
 
 
-## Directory ti_t_test ## 
+## subdirectory ti_t_test ## 
 The input files for all TI simulations: 10ns each and repeated 8 times for t-test purposes.
+**Path:** [`DATA/ti_t_test](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
+
+
 
 # Output files: #
   Due to the file sizes, all input and output files are available through anonymous [ftp to 165.230.21.2.](ftp://165.230.21.2/)  
