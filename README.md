@@ -8,6 +8,8 @@ camp system: DATA/c-md/ (https://github.com/NgFEP/timestep-choice/tree/main/DATA
 
 hmr_off_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
 
+Topology: ti_L00.parm7
+
 hmr_off_shake_on (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_on)
 
 hmr_on_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_off)
