@@ -2,8 +2,8 @@ This repository contains the files of simulations for the timestep choice manusc
 
 # Input files: #
 ## Directory: c-md ##
-###camp system:###
-DATA/c-md/camp (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
+
+camp system: DATA/c-md/camp (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
 
 hmr_off_shake_off (https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_off_shake_off)
 
