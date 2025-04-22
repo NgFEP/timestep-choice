@@ -1,6 +1,6 @@
 This repository contains the files of simulations for the timestep choice manuscript (current version available at https://doi.org/10.26434/chemrxiv-2025-jwkz1)
 
-## 📦 Example
+## Test run Example
 
 To run the simulation using the provided script, download the necessary files from the links below:
 
@@ -12,13 +12,13 @@ To run the simulation using the provided script, download the necessary files fr
 
 This Bash script `sample_hmr_on_shake_on_step_3_nve.sh` [Link](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/ethane/hmr_on_shake_on/sample_hmr_on_shake_on_step_3_nve.sh) automates the setup and submission of molecular dynamics simulations under NVE ensembles across different time steps and lambda windows using AMBER on an HPC cluster. 
 
-## 🔁 Automated NVE Simulation Submission Script (Single Lambda)
+## Automated NVE Simulation Submission Script (Single Lambda)
 
 This script is designed to automate the setup and submission of **100 ns NVE simulations** for a single lambda value using **AMBER** with CUDA acceleration on a SLURM-based HPC cluster.
 
 ---
 
-### 🧪 System Setup
+### System Setup
 
 - **Lambda value:** `0.00000000`
 - **Topology file:** `ti_hmr_L00.parm7`
@@ -26,7 +26,7 @@ This script is designed to automate the setup and submission of **100 ns NVE sim
 
 ---
 
-### 🧩 Time Step Configurations
+### Time Step Configurations
 
 | Time Step (ps) | NVE Total Steps | Output Frequency |
 |----------------|------------------|------------------|
@@ -39,7 +39,7 @@ This script is designed to automate the setup and submission of **100 ns NVE sim
 
 ---
 
-### 📄 Files and Structure
+### Files and Structure
 
 - **Input folder:** `inputs/` — auto-generated NVE `.mdin` files
 - **Run folder:** `run/` — simulation outputs
@@ -49,7 +49,7 @@ Each `.mdin` file is uniquely created per timestep, with key MD parameters for N
 
 ---
 
-### 🧬 SLURM Job Script Sample (Auto-Generated)
+### SLURM Job Script Sample (Auto-Generated)
 
 ```bash
 #!/bin/bash
@@ -94,7 +94,7 @@ After executing the `sample_hmr_on_shake_on_step_3_nve.sh` script, the following
 - `.mdinfo` — performance and energy statistics
 These files will be saved in the specified `run/` directory.
 ---
-### 📊 Analysis
+### Analysis
 
 To analyze the simulation results, follow these steps:
 1. Create a folder named `results`
