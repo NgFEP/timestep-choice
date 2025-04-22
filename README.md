@@ -202,7 +202,38 @@ The script will automate post-processing and data extraction using the provided 
     *(Located at `DATA/c-md/ethane/hmr_on_shake_on/inputs`)*
 
 ## Directory ti-md ## 
+### Camp to rp-camp transformation
+**Path:** [`DATA/ti-md/camp_rpcamp`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/camp_rpcamp)
 
+- **hmr_on_shake_on_all_sc**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/camp_rpcamp/hmr_on_shake_on_all_sc)
+
+  - **Topology:** `ti_hmr.parm7`  
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_all_sc`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_all_sc/inicord`)*
+  - **mdin:**
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_all_sc/inputs`)*
+
+- **hmr_on_shake_on_no_sc**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/camp_rpcamp/hmr_on_shake_on_no_sc)
+
+  - **Topology:** `ti_hmr.parm7`  
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_no_sc`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_no_sc/inicord`)*
+  - **mdin:**
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_no_sc/inputs`)*
+
+- **hmr_on_shake_on_one_sc**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/camp_rpcamp/hmr_on_shake_on_one_sc)
+
+  - **Topology:** `ti_hmr.parm7`  
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_one_sc`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_one_sc/inicord`)*
+  - **mdin:**
+    *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_one_sc/inputs`)*
 
 
 
