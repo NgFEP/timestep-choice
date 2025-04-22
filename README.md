@@ -262,9 +262,11 @@ The script will automate post-processing and data extraction using the provided 
 The input files for all TI simulations: 10ns each and repeated 8 times for t-test purposes.
 
 ### ejm 42 to ejm 55 transformation
-**Path:** [`DATA/ti_t_test`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
+**Path:** [`DATA/ti_t_test/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
+
 - **git_hub_ejm_42~ejm_55**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55)
+
  - **aq**
  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
 
