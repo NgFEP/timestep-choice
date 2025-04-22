@@ -97,12 +97,13 @@ These files will be saved in the specified `run/` directory.
 ### 📊 Analysis
 
 To analyze the simulation results, follow these steps:
+1. Create a folder named `results` (mkdir results).
 
-1. Download the analysis scripts:
+2. Download the analysis scripts:
    - [`step_1_extract_1.py`](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/camp/hmr_on_shake_on/run/results/step_1_extract_1.py)
    - [`step_8_extract.py`](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/camp/hmr_on_shake_on/run/results/step_8_extract.py)
 
-2. Download and execute the analysis runner script:
+3. Download and execute the analysis runner script:
    - [`run_analysis.sh`](https://github.com/NgFEP/timestep-choice/blob/main/DATA/c-md/camp/hmr_on_shake_on/run/results/run_analysis.sh)
 
 The script will automate post-processing and data extraction using the provided Python tools. Make sure Python and any required libraries are installed in your environment before running the analysis.
