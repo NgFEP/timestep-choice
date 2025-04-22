@@ -285,17 +285,12 @@ The input files for all TI simulations: 10ns each and repeated 8 times for t-tes
   - **mdin:**
     *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs`)*
     
- ## 📁 Subdirectory: `ti_t_test`
+ ## Subdirectory: `ti_t_test`
 
-This directory contains input files for **Thermodynamic Integration (TI)** simulations aimed at evaluating statistical consistency using a **t-test**. Each simulation runs for **10 ns** and is repeated **8 times** for robust statistical analysis.
+This directory contains input files for **Thermodynamic Integration (TI)** simulations to evaluate statistical consistency using a **t-test**. Each simulation runs for **10 ns** and is repeated **8 times** for robust statistical analysis.
+**Path:** [`DATA/ti_t_test/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
 
----
-
-### 🔄 EJM42 → EJM55 Transformation
-
-**Base Path:** [`DATA/ti_t_test/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test)
-
-#### 📦 System: `git_hub_ejm_42~ejm_55`
+### ejm 42 to ejm 55 transformation
 
 - **Repository Link:** [`git_hub_ejm_42~ejm_55`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55)
 
