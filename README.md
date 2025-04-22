@@ -1,8 +1,15 @@
 This repository contains the files of simulations for the timestep choice manuscript (current version available at https://doi.org/10.26434/chemrxiv-2025-jwkz1)
 
-**Example**
+## 📦 Example
 
-Download the topology [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/ti_hmr_L00.parm7), initial coordinate [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inicord/0.00000000_npt_0.0005.rst7), and all input files [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inputs) from the mentioned location.
+To run the simulation using the provided script, download the necessary files from the links below:
+
+- **Topology file:** [`ti_hmr_L00.parm7`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/ti_hmr_L00.parm7)
+- **Initial coordinate file:** [`0.00000000_npt_0.0005.rst7`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inicord/0.00000000_npt_0.0005.rst7)
+- **Input files:** [`inputs/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp/hmr_on_shake_on/inputs)
+
+Place these files in your working directory as follows:
+
 
 ## Batch Script for NVE Simulations using AMBER
 
