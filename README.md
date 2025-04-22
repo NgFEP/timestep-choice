@@ -117,7 +117,7 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_on_shake_off`)*
   - **Initial coordinate:** `out_L00.rst7`  
     *(Located at `DATA/c-md/camp/hmr_on_shake_off/inicord`)*
-    - **mdin:**
+  - **mdin:**
     *(Located at `DATA/c-md/camp/hmr_on_shake_off/inputs`)*
 
 - **hmr_on_shake_on**  
@@ -127,7 +127,7 @@ pmemd.cuda -O \
     *(Located at `DATA/c-md/camp/hmr_on_shake_on`)*
   - **Initial coordinate:** `out_L00.rst7`  
     *(Located at `DATA/c-md/camp/hmr_on_shake_on/inicord`)*
-    - **mdin:**
+  - **mdin:**
     *(Located at `DATA/c-md/camp/hmr_on_shake_on/inputs`)*
 
 ### Ethane System
