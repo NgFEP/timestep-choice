@@ -10,11 +10,9 @@ npt_steps=( ["0.0005"]=2000000 ["0.001"]=10000000 ["0.002"]=5000000 ["0.0025"]=4
 
 # Array for frequencies based on the time step
 declare -A freq_steps
-
 freq_steps=( ["0.0005"]=2000 ["0.001"]=1000 ["0.002"]=500 ["0.0025"]=400 ["0.00333333"]=300 ["0.004"]=250 )
 
 gpu_ids=(1)  # List of available GPUs
-#gpu_ids=(1)
 gpu_count=${#gpu_ids[@]}
 job_index=0  # Initialize job index for GPU assignment
 
