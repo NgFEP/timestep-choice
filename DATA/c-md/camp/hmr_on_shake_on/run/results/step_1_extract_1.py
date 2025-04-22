@@ -33,7 +33,7 @@ time_unit_label = f'Time ({time_unit.lower()})'
 time_axis_title = f'Time ({time_unit.lower()})'
 
 # Array of lambda values (adjust as necessary)
-lambda_values = ['0.00000000', '0.25000000', '0.50000000', '0.75000000', '1.00000000']
+lambda_values = ['0.00000000']
 
 # Function to extract the relevant energy data from the lines
 def extract_energy_data(lines_iter):
