@@ -296,25 +296,25 @@ This directory contains input files for **Thermodynamic Integration (TI)** simul
 
 ---
 
-#### 🌊 Environment: `aq`
+#### Environment: `aq`
 - **Path:** [`aq`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq)
 - **Topology File:** `unisc.parm7`  
   *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
 - **Initial Coordinates:** `*_preTI.rst7`  
-  *(Located in the same directory)*
+  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq`)*
 - **Input Files (`mdin`):**  
   [`inputs`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/aq/inputs)
 
 ---
 
-#### ⚗️ Environment: `com`
+#### Environment: `com`
 - **Path:** [`com`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ejm_42~ejm_55/com)
 - **Topology File:** `unisc.parm7`  
   *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
 - **Initial Coordinates:** `*_preTI.rst7`  
-  *(Located in the same directory)*
+  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
 - **Input Files (`mdin`):**  
-  *(Same as `aq`, located at `aq/inputs`)*
+  *(Located at `DATA/ti_t_test/git_hub_ejm_42~ejm_55/com`)*
 
 ---
 
