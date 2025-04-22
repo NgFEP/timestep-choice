@@ -84,7 +84,6 @@ pmemd.cuda -O \
 ```
 ---
 
-# Input files: #
 ## Directory: c-md ##
 
 ### Camp System
@@ -133,11 +132,9 @@ pmemd.cuda -O \
 ### Ethane System
 **Path:** [`DATA/c-md/ethane`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/ethane)
 
-## Directory: analysis_code ##
 
-## Directory: conv_md ##
 
-## Directory: ti ##
+
 
 ## Directory ti_t_test ## 
 The input files for all TI simulations: 10ns each and repeated 8 times for t-test purposes.
