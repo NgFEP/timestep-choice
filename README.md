@@ -235,8 +235,27 @@ The script will automate post-processing and data extraction using the provided 
   - **mdin:**
     *(Located at `DATA/ti-md/camp_rpcamp/hmr_on_shake_on_one_sc/inputs`)*
 
-###ethane to ethanol transformation
+### ethane to ethanol transformation
 **Path:** [`DATA/ti-md/ethane_ethanol/`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ethane_ethanol/)
+- **hmr_on_shake_on_3_atom_sc**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc)
+
+  - **Topology:** `out_hmr.parm7`  
+    *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc/inicord`)*
+  - **mdin:**
+    *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_3_atom_sc/inputs`)*
+
+- **hmr_on_shake_on_all_sc**  
+  [Link](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc)
+
+  - **Topology:** `out_hmr.parm7`  
+    *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc`)*
+  - **Initial coordinate:** `0.00000000_npt_0.0005.rst7`  
+    *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc/inicord`)*
+  - **mdin:**
+    *(Located at `DATA/ti-md/ti-md/ethane_ethanol/hmr_on_shake_on_all_sc/inputs`)*
 
 
 ## Directory ti_t_test ## 
