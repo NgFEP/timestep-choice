@@ -55,8 +55,7 @@ This script is designed to automate the setup and submission of **100 ns NVE sim
 ### 🧪 System Setup
 
 - **Lambda value:** `0.00000000`
-- **Topology file:** `out_hmr_L00.parm7`
-- **Initial coordinate directory:** `inicord`
+- **Topology file:** `ti_hmr_L00.parm7`
 - **Starting restart file for all NVE simulations:** `0.00000000_npt_0.0005.rst7`
 
 ---
