@@ -114,7 +114,7 @@ The script will automate post-processing and data extraction using the provided 
 
 
 ## Directory: DATA ##
-## Directory: c-md ##
+## subdirectory: c-md ##
 
 ### Camp System
 **Path:** [`DATA/c-md/camp`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/c-md/camp)
