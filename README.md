@@ -314,7 +314,7 @@ lambda=1.00
 ---
 
 ### ethane to ethanol transformation
-- **Repository Link:** [`git_hub_ejm_42~ejm_55`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ethane_ethanol)
+- **Repository Link:** [`git_hub_ethane_ethanol`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ethane_ethanol)
 
 ---
 - **all SC**
@@ -333,6 +333,23 @@ lambda=0.75
 
 lambda=1.00
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda1`)*
+
+-**4/5-atom SC**
+
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda0`)*
+
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda025`)*
+
+lambda=0.5
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda05`)*
+
+lambda=0.75
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda075`)*
+
+lambda=1.00
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda1`)*
 
 
 
