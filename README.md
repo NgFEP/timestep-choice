@@ -318,14 +318,19 @@ lambda=1.00
 
 ---
 - **all SC**
+  
 lambda=0
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda0`)*
+
 lambda=0.25
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda025`)*
+
 lambda=0.5
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda05`)*
+
 lambda=0.75
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda075`)*
+
 lambda=1.00
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda1`)*
 
