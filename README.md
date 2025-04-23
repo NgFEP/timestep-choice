@@ -313,6 +313,24 @@ lambda=1.00
 
 ---
 
+### ethane to ethanol transformation
+- **Repository Link:** [`git_hub_ejm_42~ejm_55`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_ethane_ethanol)
+
+---
+- **all SC**
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda0`)*
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda025`)*
+lambda=0.5
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda05`)*
+lambda=0.75
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda075`)*
+lambda=1.00
+*(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda1`)*
+
+
+
 
 # Output files: #
   Due to the file sizes, all input and output files are available through anonymous [ftp to 165.230.21.2.](ftp://165.230.21.2/)  
