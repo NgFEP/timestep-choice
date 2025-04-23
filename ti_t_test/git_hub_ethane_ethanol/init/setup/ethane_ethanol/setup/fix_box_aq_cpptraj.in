@@ -1,5 +1,0 @@
-     parm ethane~ethanol-2_aq.parm7
-     trajin ethane~ethanol-2_aq.rst7
-     trajout ethane~ethanol-2_aq.pdb pdb include_ep
-     go
-     quit

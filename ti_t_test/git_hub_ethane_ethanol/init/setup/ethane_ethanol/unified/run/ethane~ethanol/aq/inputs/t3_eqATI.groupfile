@@ -1,5 +1,0 @@
--O -p unisc.parm7 -c t3/0.00000000_eqP0TI.rst7 -i inputs/0.00000000_eqATI.mdin -o t3/0.00000000_eqATI.mdout -r t3/0.00000000_eqATI.rst7 -x t3/0.00000000_eqATI.nc -ref t3/0.00000000_minTI.rst7
--O -p unisc.parm7 -c t3/0.25000000_eqP0TI.rst7 -i inputs/0.25000000_eqATI.mdin -o t3/0.25000000_eqATI.mdout -r t3/0.25000000_eqATI.rst7 -x t3/0.25000000_eqATI.nc -ref t3/0.25000000_minTI.rst7
--O -p unisc.parm7 -c t3/0.50000000_eqP0TI.rst7 -i inputs/0.50000000_eqATI.mdin -o t3/0.50000000_eqATI.mdout -r t3/0.50000000_eqATI.rst7 -x t3/0.50000000_eqATI.nc -ref t3/0.50000000_minTI.rst7
--O -p unisc.parm7 -c t3/0.75000000_eqP0TI.rst7 -i inputs/0.75000000_eqATI.mdin -o t3/0.75000000_eqATI.mdout -r t3/0.75000000_eqATI.rst7 -x t3/0.75000000_eqATI.nc -ref t3/0.75000000_minTI.rst7
--O -p unisc.parm7 -c t3/1.00000000_eqP0TI.rst7 -i inputs/1.00000000_eqATI.mdin -o t3/1.00000000_eqATI.mdout -r t3/1.00000000_eqATI.rst7 -x t3/1.00000000_eqATI.nc -ref t3/1.00000000_minTI.rst7
