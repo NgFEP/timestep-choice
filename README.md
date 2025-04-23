@@ -334,7 +334,7 @@ lambda=0.75
 lambda=1.00
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/SCAll_lambda1`)*
 
--**4/5-atom SC**
+- **4/5-atom SC**
 
 lambda=0
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda0`)*
