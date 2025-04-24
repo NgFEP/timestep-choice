@@ -1,0 +1,13 @@
+for len in 1fs 2fs  25fs 3fs  4fs
+do
+echo $len
+find -name "mdout.$len.l*" | xargs -n 1 -I % sh -c ' grep "DV/DL" % | tail -n +1000 > xx ; ~/Scripts/awk/getAveStd.awk xx ' > zz.$len
+done
+sed -i '/00000/d' zz*
+
+for len in 1fs 2fs  25fs 3fs  4fs
+do
+  echo $len
+   ~/Scripts/awk/getAveStd.awk  zz.$len
+done
+

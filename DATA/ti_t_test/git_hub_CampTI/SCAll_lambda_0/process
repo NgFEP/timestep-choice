@@ -1,0 +1,11 @@
+find -name "mdout.1fs.l*" | xargs -n 1 -I % sh -c ' grep "DV/DL" % | tail -n +1000 > xx ; ~/Scripts/awk/getAveStd.awk xx ' > zz.1fs
+find -name "mdout.2fs.l*" | xargs -n 1 -I % sh -c ' grep "DV/DL" % | tail -n +1000 > xx ; ~/Scripts/awk/getAveStd.awk xx ' > zz.2fs
+find -name "mdout.4fs.l*" | xargs -n 1 -I % sh -c ' grep "DV/DL" % | tail -n +1000 > xx ; ~/Scripts/awk/getAveStd.awk xx ' > zz.4fs
+sed -i '/00000/d' zz*
+echo "1fs"
+~/Scripts/awk/getAveStd.awk  zz.1fs
+echo "2fs"
+~/Scripts/awk/getAveStd.awk  zz.2fs
+echo "4fs"
+~/Scripts/awk/getAveStd.awk  zz.4fs
+
