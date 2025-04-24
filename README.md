@@ -351,7 +351,60 @@ lambda=0.75
 lambda=1.00
 *(Located at `DATA/ti_t_test/git_hub_ethane_ethanol/lambda1`)*
 
+---
+### camp to rp-camp transformation
+- **Repository Link:** [`git_hub_CampTI`](https://github.com/NgFEP/timestep-choice/tree/main/DATA/ti_t_test/git_hub_CampTI)
+---
+- **no SC**
 
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_CampTI/NoSC_lambda_0`)*
+
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_CampTI/NoSC_lambda_25`)*
+
+lambda=0.5
+*(Located at `DATA/ti_t_test/git_hub_CampTI/NoSC_lambda_05`)*
+
+lambda=0.75
+*(Located at `DATA/ti_t_test/git_hub_CampTI/NoSC_lambda_75`)*
+
+lambda=1.00
+*(Located at `DATA/ti_t_test/git_hub_CampTI/NoSC_lambda_1`)*
+
+- **1 atom**
+
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SC_lambda_0`)*
+
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SC_lambda_25`)*
+
+lambda=0.50
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SC_lambda_05`)*
+
+lambda=0.75
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SC_lambda_75`)*
+
+lambda=1.00
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SC_lambda_1`)*
+
+- **all SC**
+
+lambda=0
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SCAll_lambda_0`)*
+
+lambda=0.25
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SCAll_lambda_25`)*
+
+lambda=0.50
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SCAll_lambda_05`)*
+
+lambda=0.75
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SCAll_lambda_75`)*
+
+lambda=1.00
+*(Located at `DATA/ti_t_test/git_hub_CampTI/SCAll_lambda_1`)*
 
 
 # Output files: #
