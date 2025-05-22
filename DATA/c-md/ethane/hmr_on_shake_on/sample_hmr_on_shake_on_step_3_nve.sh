@@ -101,8 +101,8 @@ dt="${dt}"
     -o \${run_folder}/\${nve}_\${dt}.mdout \\
     -r \${run_folder}/\${nve}_\${dt}.rst7 \\
     -x \${run_folder}/\${nve}_\${dt}.nc  \\
-    -inf \${run_folder}/\${nve}_\${dt}.mdinfo \\
-    -AllowSmallBox
+    -inf \${run_folder}/\${nve}_\${dt}.mdinfo 
+    
 echo "Completed simulations for lambda=\${lambda}, dt=\${dt}"
 EOF
 
